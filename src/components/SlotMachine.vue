@@ -4,9 +4,6 @@
       <div class="blocks">
         <div class="contents">
           <SlotMachineBlock class="slot-machine-block" v-for="(block, i) in blocks" :key="i" :block="block" :rolling="rolling" />
-<!--          <div class="content" v-for="(block, index) in blocks" :key="index">-->
-<!--            <div class="box" :class="rolling ? 'animate' : ''">{{ block }}</div>-->
-<!--          </div>-->
         </div>
       </div>
       <div class="lever" id="slot-trigger" @click="slotTriggerMove">
