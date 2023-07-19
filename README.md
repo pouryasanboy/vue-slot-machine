@@ -21,7 +21,7 @@ npm run serve
 
 ## How to Play
 Open the application in your web browser.
-Click the "Start" button to start the game.
+Click the "Start" button or better to say PULL THE LEVER to start the game.
 Each roll costs 1 credit.
 If the symbols in all blocks match, you win and your credits increase by the symbol's reward amount.
 To stop the game and cash out your credits, click on the "CASH OUT" button.
