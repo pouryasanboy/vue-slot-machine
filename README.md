@@ -25,7 +25,8 @@ Click the "Start" button to start the game.
 Each roll costs 1 credit.
 If the symbols in all blocks match, you win and your credits increase by the symbol's reward amount.
 To stop the game and cash out your credits, click on the "CASH OUT" button.
-Implementation
+
+## Implementation
 The game's logic is encapsulated in the SlotMachine Vue component. This component handles the game state, such as the player's current credits and the current symbols in the slot machine blocks. The game logic is primarily implemented in the pullLever and shouldReroll methods.
 
 ## Testing
