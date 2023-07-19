@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SlotMachine matches the snapshot 1`] = `
+"<div class="slot-machine">
+  <div class="slot-machine__buddy">
+    <div class="blocks">
+      <div class="contents">
+        <div class="content slot-machine-block">
+          <div class="box">X</div>
+        </div>
+        <div class="content slot-machine-block">
+          <div class="box">X</div>
+        </div>
+        <div class="content slot-machine-block">
+          <div class="box">X</div>
+        </div><!--          <div class="content" v-for="(block, index) in blocks" :key="index">-->
+        <!--            <div class="box" :class="rolling ? 'animate' : ''">{{ block }}</div>-->
+        <!--          </div>-->
+      </div>
+    </div>
+    <div class="lever" id="slot-trigger"><svg id="trigger" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="143.6" viewBox="0 0 35 143.6">
+        <defs>
+          <linearGradient id="linear-gradient" x1="6.21" y1="143.63" x2="6.21" y2="67.37" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#515151"></stop>
+            <stop offset="0.21" stop-color="#989898"></stop>
+            <stop offset="0.51" stop-color="#e3e3e3"></stop>
+            <stop offset="0.82" stop-color="#949494"></stop>
+            <stop offset="1" stop-color="#444"></stop>
+          </linearGradient>
+          <linearGradient id="linear-gradient-2" x1="23.71" y1="127.98" x2="23.71" y2="83.01" xlink:href="#linear-gradient"></linearGradient>
+          <linearGradient id="linear-gradient-3" x1="20.46" y1="55.66" x2="25.41" y2="55.66" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#6b6b6b"></stop>
+            <stop offset="1" stop-color="#454545"></stop>
+          </linearGradient>
+          <radialGradient id="radial-gradient" cx="23.05" cy="12.33" fx="31.426365772510508" r="12.04" gradientTransform="translate(1.5 -0.3) scale(0.93 0.93)" gradientUnits="userSpaceOnUse">
+            <stop offset="0" stop-color="#e47f7f"></stop>
+            <stop offset="0.68" stop-color="#ae292a"></stop>
+          </radialGradient>
+        </defs>
+        <path id="ring1" d="M0,67.4H7.3a5.1,5.1,0,0,1,5.1,5.1v66.1a5.1,5.1,0,0,1-5.1,5.1H0a0,0,0,0,1,0,0V67.4A0,0,0,0,1,0,67.4Z" fill="url(#linear-gradient)"></path>
+        <path id="ring2" d="M12.4,83H29.7A5.3,5.3,0,0,1,35,88.3v34.4a5.3,5.3,0,0,1-5.3,5.3H12.4a0,0,0,0,1,0,0V83A0,0,0,0,1,12.4,83Z" fill="url(#linear-gradient-2)"></path>
+        <ellipse id="hole" cx="22.9" cy="88.6" rx="5.9" ry="2.2" fill="#3f3f3f"></ellipse>
+        <rect id="stick" x="20.5" y="22.2" width="5" height="66.88" fill="url(#linear-gradient-3)"></rect>
+        <ellipse id="head" cx="22.9" cy="11.3" rx="11.2" ry="11.3" fill="url(#radial-gradient)"></ellipse>
+      </svg></div>
+  </div><!-- Display the user's credits -->
+  <div class="credits" id="credits">Your Credits: 10</div><!-- Display the cash out button --><button class="cash-out">CASH OUT</button>
+</div>"
+`;
