@@ -29,7 +29,11 @@ Implementation
 The game's logic is encapsulated in the SlotMachine Vue component. This component handles the game state, such as the player's current credits and the current symbols in the slot machine blocks. The game logic is primarily implemented in the pullLever and shouldReroll methods.
 
 ## Testing
-Tests are still under development.
+To run the test suite, run:
+```
+npm run test
+```
+This will run all the tests in the tests directory. The tests are written using [Jest ↗](https://jestjs.io/).
 
 ## License
 This project is licensed under the MIT License.
